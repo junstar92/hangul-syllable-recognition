@@ -1,5 +1,7 @@
 # hangul-syllable-recognition
 
+<img src="./documents/demo.gif">
+
 ## Introduction
 
 한글은 조합이 다양하기 때문에 영어에 비해서 OCR 성능이 조금 떨어진다고 알고 있다. 
