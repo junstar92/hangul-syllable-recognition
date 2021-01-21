@@ -59,7 +59,7 @@ if canvas.image_data is not None:
     
     # show prediction of most five
     most_arg = y.argsort()[::-1][:5]
-    most_val = [f'{y[idx]*100:.6f}' for idx in most_arg]
+    most_val = [f'{y[idx]*100:.8f}' for idx in most_arg]
     chars = [f'{idx2char[idx]}' for idx in most_arg]
     
     chart_data = pd.DataFrame(
