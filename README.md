@@ -73,6 +73,7 @@ Clova deep-text-recognition에서 사용한 VGG_Extractor의 구조를 참조하
 
 Github : https://github.com/clovaai/deep-text-recognition-benchmark
 
+<img src="./documents/model architecture.png">
 
 
 ### Create dataset
@@ -108,9 +109,13 @@ Link : http://asq.kr/DxUZf7Fgzmtmdq
 
 ## Result
 
-약 98%의 training/validation accuracy로 학습을 완료했으며 이 과정에서 minimum loss는 0.04 였다.
+<img src="./documents/training_results.png">
+약 98~99%의 training/validation accuracy로 학습을 완료했으며 이 과정에서 minimum loss는 0.0262였다. 
 
-테스트를 위해서 TextRecognitionDataGenerator로 새로운 글자 이미지 80,000개를 생성하여 테스트를 했을 때에는 약 80%의 accuracy를 달성했다.
+22 epoch에서 best accuracy와 minimum loss의 결과를 얻었으며, 그 이후로는 과적합 경향이 보인다.
+
+<img src="./documents/testing_results.png">
+테스트를 위해서 TextRecognitionDataGenerator로 새로운 글자 이미지 80,000개를 생성하여 테스트를 했을 때에는 약 98%의 accuracy와 0.086의 loss를 달성했다.
 
 결과만을 봤을 때에는 과적합이 발생했다고 생각이 되었지만, 실제 나의 손글씨로 테스트를 했을 때 꽤 높은 정확도를 보여주고 있다.(IPad를 통해서 테스트함)
 
