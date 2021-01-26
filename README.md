@@ -37,7 +37,7 @@ Github : https://github.com/Belval/TextRecognitionDataGenerator
 font파일과 생성할 글자들을 모은 txt파일이 있으면, 위의 TextRecognitionDataGenerator를 통해서 글자 이미지를 생성할 수 있다.
 
 1. fonts/ko에 font 추가(.ttf파일)
-- 생성에 사용된 font는 기본으로 사용되는 font와 네이버에서 제공되는 손끌씨 font이며, 그 목록은 다음과 같다.
+- 생성에 사용된 font는 기본으로 사용되는 font와 네이버에서 제공되는 손씨 font이며, 그 목록은 다음과 같다.
     <img src="./documents/font_list.png">
 
 
